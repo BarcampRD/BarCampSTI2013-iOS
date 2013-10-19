@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CFCE5521813391A0075D783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFCE5511813391A0075D783 /* Foundation.framework */; };
+		6CFCE5541813391A0075D783 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFCE5531813391A0075D783 /* CoreGraphics.framework */; };
+		6CFCE5561813391A0075D783 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFCE5551813391A0075D783 /* UIKit.framework */; };
+		6CFCE55C1813391A0075D783 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCE55A1813391A0075D783 /* InfoPlist.strings */; };
+		6CFCE55E1813391A0075D783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFCE55D1813391A0075D783 /* main.m */; };
+		6CFCE5621813391A0075D783 /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFCE5611813391A0075D783 /* BCAppDelegate.m */; };
+		6CFCE5651813391A0075D783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCE5631813391A0075D783 /* Main.storyboard */; };
+		6CFCE5681813391A0075D783 /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFCE5671813391A0075D783 /* BCViewController.m */; };
+		6CFCE56A1813391A0075D783 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCE5691813391A0075D783 /* Images.xcassets */; };
+		6CFCE5711813391A0075D783 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFCE5701813391A0075D783 /* XCTest.framework */; };
+		6CFCE5721813391A0075D783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFCE5511813391A0075D783 /* Foundation.framework */; };
+		6CFCE5731813391A0075D783 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFCE5551813391A0075D783 /* UIKit.framework */; };
+		6CFCE57B1813391A0075D783 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCE5791813391A0075D783 /* InfoPlist.strings */; };
+		6CFCE57D1813391A0075D783 /* Barcamp_STITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFCE57C1813391A0075D783 /* Barcamp_STITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CFCE5741813391A0075D783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CFCE5461813391A0075D783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CFCE54D1813391A0075D783;
+			remoteInfo = "Barcamp STI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CFCE54E1813391A0075D783 /* Barcamp STI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcamp STI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFCE5511813391A0075D783 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CFCE5531813391A0075D783 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CFCE5551813391A0075D783 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CFCE5591813391A0075D783 /* Barcamp STI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Barcamp STI-Info.plist"; sourceTree = "<group>"; };
+		6CFCE55B1813391A0075D783 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CFCE55D1813391A0075D783 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CFCE55F1813391A0075D783 /* Barcamp STI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Barcamp STI-Prefix.pch"; sourceTree = "<group>"; };
+		6CFCE5601813391A0075D783 /* BCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppDelegate.h; sourceTree = "<group>"; };
+		6CFCE5611813391A0075D783 /* BCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppDelegate.m; sourceTree = "<group>"; };
+		6CFCE5641813391A0075D783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CFCE5661813391A0075D783 /* BCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
+		6CFCE5671813391A0075D783 /* BCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
+		6CFCE5691813391A0075D783 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CFCE56F1813391A0075D783 /* Barcamp STITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Barcamp STITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFCE5701813391A0075D783 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6CFCE5781813391A0075D783 /* Barcamp STITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Barcamp STITests-Info.plist"; sourceTree = "<group>"; };
+		6CFCE57A1813391A0075D783 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CFCE57C1813391A0075D783 /* Barcamp_STITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Barcamp_STITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CFCE54B1813391A0075D783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFCE5541813391A0075D783 /* CoreGraphics.framework in Frameworks */,
+				6CFCE5561813391A0075D783 /* UIKit.framework in Frameworks */,
+				6CFCE5521813391A0075D783 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFCE56C1813391A0075D783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFCE5711813391A0075D783 /* XCTest.framework in Frameworks */,
+				6CFCE5731813391A0075D783 /* UIKit.framework in Frameworks */,
+				6CFCE5721813391A0075D783 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CFCE5451813391A0075D783 = {
+			isa = PBXGroup;
+			children = (
+				6CFCE5571813391A0075D783 /* Barcamp STI */,
+				6CFCE5761813391A0075D783 /* Barcamp STITests */,
+				6CFCE5501813391A0075D783 /* Frameworks */,
+				6CFCE54F1813391A0075D783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CFCE54F1813391A0075D783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CFCE54E1813391A0075D783 /* Barcamp STI.app */,
+				6CFCE56F1813391A0075D783 /* Barcamp STITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CFCE5501813391A0075D783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CFCE5511813391A0075D783 /* Foundation.framework */,
+				6CFCE5531813391A0075D783 /* CoreGraphics.framework */,
+				6CFCE5551813391A0075D783 /* UIKit.framework */,
+				6CFCE5701813391A0075D783 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CFCE5571813391A0075D783 /* Barcamp STI */ = {
+			isa = PBXGroup;
+			children = (
+				6CFCE5601813391A0075D783 /* BCAppDelegate.h */,
+				6CFCE5611813391A0075D783 /* BCAppDelegate.m */,
+				6CFCE5631813391A0075D783 /* Main.storyboard */,
+				6CFCE5661813391A0075D783 /* BCViewController.h */,
+				6CFCE5671813391A0075D783 /* BCViewController.m */,
+				6CFCE5691813391A0075D783 /* Images.xcassets */,
+				6CFCE5581813391A0075D783 /* Supporting Files */,
+			);
+			path = "Barcamp STI";
+			sourceTree = "<group>";
+		};
+		6CFCE5581813391A0075D783 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CFCE5591813391A0075D783 /* Barcamp STI-Info.plist */,
+				6CFCE55A1813391A0075D783 /* InfoPlist.strings */,
+				6CFCE55D1813391A0075D783 /* main.m */,
+				6CFCE55F1813391A0075D783 /* Barcamp STI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CFCE5761813391A0075D783 /* Barcamp STITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CFCE57C1813391A0075D783 /* Barcamp_STITests.m */,
+				6CFCE5771813391A0075D783 /* Supporting Files */,
+			);
+			path = "Barcamp STITests";
+			sourceTree = "<group>";
+		};
+		6CFCE5771813391A0075D783 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CFCE5781813391A0075D783 /* Barcamp STITests-Info.plist */,
+				6CFCE5791813391A0075D783 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CFCE54D1813391A0075D783 /* Barcamp STI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFCE5801813391B0075D783 /* Build configuration list for PBXNativeTarget "Barcamp STI" */;
+			buildPhases = (
+				6CFCE54A1813391A0075D783 /* Sources */,
+				6CFCE54B1813391A0075D783 /* Frameworks */,
+				6CFCE54C1813391A0075D783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barcamp STI";
+			productName = "Barcamp STI";
+			productReference = 6CFCE54E1813391A0075D783 /* Barcamp STI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CFCE56E1813391A0075D783 /* Barcamp STITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFCE5831813391B0075D783 /* Build configuration list for PBXNativeTarget "Barcamp STITests" */;
+			buildPhases = (
+				6CFCE56B1813391A0075D783 /* Sources */,
+				6CFCE56C1813391A0075D783 /* Frameworks */,
+				6CFCE56D1813391A0075D783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CFCE5751813391A0075D783 /* PBXTargetDependency */,
+			);
+			name = "Barcamp STITests";
+			productName = "Barcamp STITests";
+			productReference = 6CFCE56F1813391A0075D783 /* Barcamp STITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CFCE5461813391A0075D783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vin Rosa";
+				TargetAttributes = {
+					6CFCE56E1813391A0075D783 = {
+						TestTargetID = 6CFCE54D1813391A0075D783;
+					};
+				};
+			};
+			buildConfigurationList = 6CFCE5491813391A0075D783 /* Build configuration list for PBXProject "Barcamp STI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CFCE5451813391A0075D783;
+			productRefGroup = 6CFCE54F1813391A0075D783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CFCE54D1813391A0075D783 /* Barcamp STI */,
+				6CFCE56E1813391A0075D783 /* Barcamp STITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CFCE54C1813391A0075D783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFCE56A1813391A0075D783 /* Images.xcassets in Resources */,
+				6CFCE55C1813391A0075D783 /* InfoPlist.strings in Resources */,
+				6CFCE5651813391A0075D783 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFCE56D1813391A0075D783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFCE57B1813391A0075D783 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CFCE54A1813391A0075D783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFCE5681813391A0075D783 /* BCViewController.m in Sources */,
+				6CFCE55E1813391A0075D783 /* main.m in Sources */,
+				6CFCE5621813391A0075D783 /* BCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFCE56B1813391A0075D783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFCE57D1813391A0075D783 /* Barcamp_STITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CFCE5751813391A0075D783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CFCE54D1813391A0075D783 /* Barcamp STI */;
+			targetProxy = 6CFCE5741813391A0075D783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CFCE55A1813391A0075D783 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CFCE55B1813391A0075D783 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CFCE5631813391A0075D783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CFCE5641813391A0075D783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CFCE5791813391A0075D783 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CFCE57A1813391A0075D783 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CFCE57E1813391B0075D783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CFCE57F1813391B0075D783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CFCE5811813391B0075D783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barcamp STI/Barcamp STI-Prefix.pch";
+				INFOPLIST_FILE = "Barcamp STI/Barcamp STI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CFCE5821813391B0075D783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barcamp STI/Barcamp STI-Prefix.pch";
+				INFOPLIST_FILE = "Barcamp STI/Barcamp STI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6CFCE5841813391B0075D783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Barcamp STI.app/Barcamp STI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barcamp STI/Barcamp STI-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Barcamp STITests/Barcamp STITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6CFCE5851813391B0075D783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Barcamp STI.app/Barcamp STI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barcamp STI/Barcamp STI-Prefix.pch";
+				INFOPLIST_FILE = "Barcamp STITests/Barcamp STITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CFCE5491813391A0075D783 /* Build configuration list for PBXProject "Barcamp STI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFCE57E1813391B0075D783 /* Debug */,
+				6CFCE57F1813391B0075D783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CFCE5801813391B0075D783 /* Build configuration list for PBXNativeTarget "Barcamp STI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFCE5811813391B0075D783 /* Debug */,
+				6CFCE5821813391B0075D783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CFCE5831813391B0075D783 /* Build configuration list for PBXNativeTarget "Barcamp STITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFCE5841813391B0075D783 /* Debug */,
+				6CFCE5851813391B0075D783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CFCE5461813391A0075D783 /* Project object */;
+}
