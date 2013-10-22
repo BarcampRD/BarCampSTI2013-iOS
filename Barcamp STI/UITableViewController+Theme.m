@@ -12,7 +12,8 @@
 -(void)loadNavBarLogo{
     UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_logo_small"]];
     [iv sizeToFit];
-    //self.navigationController.navigationBar.topItem.titleView = iv;
+    iv.contentMode = UIViewContentModeScaleAspectFit;
+    iv.autoresizesSubviews = YES;
     self.navigationItem.titleView = iv;
 }
 

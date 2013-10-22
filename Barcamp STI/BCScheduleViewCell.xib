@@ -13,37 +13,70 @@
                 <rect key="frame" x="0.0" y="0.0" width="287" height="139"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="09:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmb-6N-qB5">
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmb-6N-qB5">
                         <rect key="frame" x="20" y="54" width="65" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="65" id="EvV-G7-G3V"/>
+                        </constraints>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dga-t6-by4">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dga-t6-by4">
                         <rect key="frame" x="93" y="13" width="3" height="113"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.039215686270000001" green="0.59215686270000001" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="3" id="PYo-mS-LuW"/>
+                        </constraints>
                     </view>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHc-b2-yfq">
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHc-b2-yfq">
                         <rect key="frame" x="104" y="13" width="183" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="gby-Fz-tSh"/>
+                        </constraints>
                         <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="21"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="183" translatesAutoresizingMaskIntoConstraints="NO" id="Bg7-hX-jgc">
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="183" translatesAutoresizingMaskIntoConstraints="NO" id="Bg7-hX-jgc">
                         <rect key="frame" x="104" y="53" width="183" height="44"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="rlo-sA-itZ"/>
+                        </constraints>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaY-CK-cz4">
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaY-CK-cz4">
                         <rect key="frame" x="104" y="105" width="183" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="RXH-Lk-ura"/>
+                        </constraints>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Bg7-hX-jgc" secondAttribute="trailing" id="0gA-Tc-KIJ"/>
+                    <constraint firstItem="WHc-b2-yfq" firstAttribute="top" secondItem="Wir-cW-DUQ" secondAttribute="top" constant="13" id="323-mu-wrR"/>
+                    <constraint firstItem="jaY-CK-cz4" firstAttribute="leading" secondItem="dga-t6-by4" secondAttribute="trailing" constant="8" id="6dH-7A-CMt"/>
+                    <constraint firstItem="dga-t6-by4" firstAttribute="top" secondItem="Wir-cW-DUQ" secondAttribute="top" constant="13" id="7Vm-Wf-yVn"/>
+                    <constraint firstAttribute="bottom" secondItem="dga-t6-by4" secondAttribute="bottom" constant="13" id="8bf-J1-ZTf"/>
+                    <constraint firstItem="gmb-6N-qB5" firstAttribute="top" secondItem="Wir-cW-DUQ" secondAttribute="top" constant="54" id="CvH-Hy-DXX"/>
+                    <constraint firstAttribute="trailing" secondItem="jaY-CK-cz4" secondAttribute="trailing" id="HJN-HD-bcs"/>
+                    <constraint firstItem="gmb-6N-qB5" firstAttribute="leading" secondItem="Wir-cW-DUQ" secondAttribute="leading" constant="20" symbolic="YES" id="Hgz-JS-aiz"/>
+                    <constraint firstAttribute="trailing" secondItem="WHc-b2-yfq" secondAttribute="trailing" id="L6y-yp-zGO"/>
+                    <constraint firstItem="Bg7-hX-jgc" firstAttribute="leading" secondItem="dga-t6-by4" secondAttribute="trailing" constant="8" id="OLv-RW-7SZ"/>
+                    <constraint firstAttribute="bottom" secondItem="gmb-6N-qB5" secondAttribute="bottom" constant="53" id="XMt-o2-QWJ"/>
+                    <constraint firstItem="dga-t6-by4" firstAttribute="leading" secondItem="gmb-6N-qB5" secondAttribute="trailing" constant="8" symbolic="YES" id="anh-yq-XDZ"/>
+                    <constraint firstItem="jaY-CK-cz4" firstAttribute="top" secondItem="Bg7-hX-jgc" secondAttribute="bottom" constant="8" id="auy-ch-vbq"/>
+                    <constraint firstItem="Bg7-hX-jgc" firstAttribute="top" secondItem="WHc-b2-yfq" secondAttribute="bottom" constant="8" id="nvc-mN-pN6"/>
+                    <constraint firstAttribute="centerY" secondItem="gmb-6N-qB5" secondAttribute="centerY" id="ofU-HX-tu9"/>
+                    <constraint firstItem="WHc-b2-yfq" firstAttribute="leading" secondItem="dga-t6-by4" secondAttribute="trailing" constant="8" id="wTV-xZ-BEP"/>
+                </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="scheduleDate" destination="jaY-CK-cz4" id="M4p-c1-uzx"/>
