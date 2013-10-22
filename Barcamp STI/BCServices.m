@@ -75,7 +75,7 @@
     [self deleteObjects:@"Schedule"];
     for (NSDictionary *dict in schedules) {
         NSDictionary *jschedule = [dict objectForKey:@"Schedule"];
-        NSNumber *speakerId = [NSNumber numberWithInt:[[jschedule objectForKey:@"speaker_id"] integerValue]];
+        NSNumber *speakerId = [NSNumber numberWithInteger:[[jschedule objectForKey:@"speaker_id"] integerValue]];
         [self addSchedule:jschedule
               withSpeaker:[results objectForKey:speakerId]
          ];

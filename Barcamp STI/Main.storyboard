@@ -240,7 +240,9 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" id="drH-YH-DbF"/>
+                    <navigationItem key="navigationItem" id="drH-YH-DbF">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="ZcN-qh-AEw"/>
+                    </navigationItem>
                     <connections>
                         <segue destination="uTb-G1-Rl2" kind="push" identifier="ScheduleDetails" id="KID-g7-ME8"/>
                     </connections>
@@ -304,7 +306,7 @@
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARB-s1-D5a">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARB-s1-D5a">
                                                     <rect key="frame" x="20" y="161" width="280" height="187"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -372,7 +374,9 @@
                             <outlet property="delegate" destination="uTb-G1-Rl2" id="INH-JH-yNN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="hYX-Yf-mXO"/>
+                    <navigationItem key="navigationItem" id="hYX-Yf-mXO">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="2HD-Ie-B51"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="scheduleDescription" destination="ARB-s1-D5a" id="TVy-kw-hcZ"/>
                         <outlet property="schedulePlace" destination="Am7-Zr-yI2" id="eds-FW-ICb"/>
@@ -423,7 +427,9 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" id="uRy-HI-SkZ"/>
+                    <navigationItem key="navigationItem" id="uRy-HI-SkZ">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="B0s-zS-2a9"/>
+                    </navigationItem>
                     <connections>
                         <segue destination="Opx-FA-3QU" kind="push" identifier="SpeakerDetails" id="Z4e-PZ-4lQ"/>
                     </connections>
@@ -470,22 +476,22 @@
         <scene sceneID="Txf-ga-jXd">
             <objects>
                 <tableViewController id="xiC-e2-iCw" customClass="BCMoreViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="de8-nU-BbG">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="de8-nU-BbG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection id="Ujx-Q9-WlE">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="380" id="oRK-QR-MQW">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="380"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="350" id="oRK-QR-MQW">
+                                        <rect key="frame" x="0.0" y="64" width="320" height="350"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oRK-QR-MQW" id="ZT5-HO-OWX">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="379"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="349"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zL-JN-6H5">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="379"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zL-JN-6H5">
+                                                    <rect key="frame" x="20" y="20" width="280" height="309"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <string key="text">BarCamp STI es un evento que tiene por objetivo reunir a estudiantes y profesionales relacionados con el desarrollo de software, ingeniería de sistemas y áreas afines con el propósito de intercambiar experiencias y conocimientos, mediante la realización de charlas, talleres y debates.
@@ -494,17 +500,25 @@ En nuestro primer año, tenemos el reto de reunir a desarrolladores, profesores,
 
 BarCamp STI 2013 será celebrado en el campus de la Pontificia Universidad Catolica Madre y Maestra, el sábado 16 de noviembre del 2013, desde las 9 A.M hasta las 6 P.M.
 </string>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8zL-JN-6H5" firstAttribute="top" secondItem="ZT5-HO-OWX" secondAttribute="top" constant="20" id="AuH-xO-cyD"/>
+                                                <constraint firstAttribute="trailing" secondItem="8zL-JN-6H5" secondAttribute="trailing" constant="20" id="CfB-RX-ayP"/>
+                                                <constraint firstItem="8zL-JN-6H5" firstAttribute="leading" secondItem="ZT5-HO-OWX" secondAttribute="leading" constant="20" id="OFJ-Po-ebQ"/>
+                                                <constraint firstAttribute="bottom" secondItem="8zL-JN-6H5" secondAttribute="bottom" constant="20" id="eY4-nS-pl8"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="0wv-Xm-8wL"/>
+                    <navigationItem key="navigationItem" id="0wv-Xm-8wL">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="e7f-Sq-k18"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vPe-Sx-QfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -591,6 +605,6 @@ BarCamp STI 2013 será celebrado en el campus de la Pontificia Universidad Catol
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="KID-g7-ME8"/>
+        <segue reference="2V7-lb-shD"/>
     </inferredMetricsTieBreakers>
 </document>
