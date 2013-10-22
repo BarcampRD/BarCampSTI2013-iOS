@@ -65,7 +65,6 @@
                     <constraint firstItem="jaY-CK-cz4" firstAttribute="leading" secondItem="dga-t6-by4" secondAttribute="trailing" constant="8" id="6dH-7A-CMt"/>
                     <constraint firstItem="dga-t6-by4" firstAttribute="top" secondItem="Wir-cW-DUQ" secondAttribute="top" constant="13" id="7Vm-Wf-yVn"/>
                     <constraint firstAttribute="bottom" secondItem="dga-t6-by4" secondAttribute="bottom" constant="13" id="8bf-J1-ZTf"/>
-                    <constraint firstItem="gmb-6N-qB5" firstAttribute="top" secondItem="Wir-cW-DUQ" secondAttribute="top" constant="54" id="CvH-Hy-DXX"/>
                     <constraint firstAttribute="trailing" secondItem="jaY-CK-cz4" secondAttribute="trailing" id="HJN-HD-bcs"/>
                     <constraint firstItem="gmb-6N-qB5" firstAttribute="leading" secondItem="Wir-cW-DUQ" secondAttribute="leading" constant="20" symbolic="YES" id="Hgz-JS-aiz"/>
                     <constraint firstAttribute="trailing" secondItem="WHc-b2-yfq" secondAttribute="trailing" id="L6y-yp-zGO"/>
