@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Speaker.h"
 
 @interface BCSpeakerCard : UIView
+
+@property (strong, nonatomic) Speaker *speaker;
 @property (strong, nonatomic) IBOutlet UIImageView *speakerPhoto;
 @property (strong, nonatomic) IBOutlet UILabel *speakerName;
 

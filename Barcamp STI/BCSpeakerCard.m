@@ -9,6 +9,7 @@
 #import "BCSpeakerCard.h"
 
 @implementation BCSpeakerCard
+@synthesize speaker = _speaker;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -29,5 +30,12 @@
 */
 
 - (IBAction)twitterAction:(id)sender {
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"twitter://"]]){
+        [[UIApplication sharedApplication] openURL:
+         [NSURL URLWithString:[NSString stringWithFormat:@"twitter://user?screen_name=%@", self.speaker.twitter]]];
+    }else{
+        [[UIApplication sharedApplication] openURL:
+         [NSURL URLWithString:[NSString stringWithFormat:@"https://www.twitter.com/#!/%@", self.speaker.twitter]]];
+    }
 }
 @end
