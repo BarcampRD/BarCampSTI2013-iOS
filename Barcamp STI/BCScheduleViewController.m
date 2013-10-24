@@ -44,6 +44,25 @@
     [self.tableView registerNib:[UINib nibWithNibName:@"BCScheduleViewCell"
                                                bundle:[NSBundle mainBundle]]
          forCellReuseIdentifier:@"ScheduleCell"];
+    
+    UIRefreshControl *control = [[UIRefreshControl alloc] init];
+    [control addTarget:self action:@selector(requestReloadInfo) forControlEvents:UIControlEventValueChanged];
+    [control setAttributedTitle:[[NSAttributedString alloc] initWithString:@"Cargando..."]];
+    self.refreshControl = control;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadInfo) name:@"InfoUpdated" object:nil];
+}
+
+-(void) requestReloadInfo{
+    [[BCServices instance] load];
+}
+
+
+-(void) reloadInfo{
+    NSLog(@"Reloading Info");
+    self.schedules = [[BCServices instance] schedules];
+    [self.tableView reloadData];
+    [self.refreshControl endRefreshing];
 }
 
 - (void)didReceiveMemoryWarning

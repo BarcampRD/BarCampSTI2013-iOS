@@ -80,8 +80,10 @@
               withSpeaker:[results objectForKey:speakerId]
          ];
     }
-    
     [self.managedObjectContext save:nil];
+    self.data = nil;
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"InfoUpdated" object:self];
 }
 
 
