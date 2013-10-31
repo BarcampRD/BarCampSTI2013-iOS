@@ -430,6 +430,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Vin Rosa";
 				TargetAttributes = {
+					6CFCE54D1813391A0075D783 = {
+						DevelopmentTeam = RJBRYLVGDR;
+					};
 					6CFCE56E1813391A0075D783 = {
 						TestTargetID = 6CFCE54D1813391A0075D783;
 					};
@@ -628,6 +631,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Barcamp STI/Barcamp STI-Prefix.pch";
 				INFOPLIST_FILE = "Barcamp STI/Barcamp STI-Info.plist";
@@ -641,6 +645,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Barcamp STI/Barcamp STI-Prefix.pch";
 				INFOPLIST_FILE = "Barcamp STI/Barcamp STI-Info.plist";
