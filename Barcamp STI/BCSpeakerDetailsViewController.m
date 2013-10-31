@@ -51,6 +51,7 @@
     [self.tableView registerNib:[UINib nibWithNibName:@"BCScheduleViewCell"
                                                bundle:[NSBundle mainBundle]]
          forCellReuseIdentifier:@"ScheduleCell"];
+    self.card.speaker = self.speaker;
     self.card.speakerName.text = [self.speaker fullName];
     self.card.speakerDescription.text = self.speaker.fdescription;
     self.card.twitterHandler.text = [NSString stringWithFormat:@"/@%@", self.speaker.twitter];

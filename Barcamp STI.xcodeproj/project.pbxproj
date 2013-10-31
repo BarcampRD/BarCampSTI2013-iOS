@@ -31,8 +31,6 @@
 		6CA4F605181612F60044B570 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA4F604181612F60044B570 /* CoreData.framework */; };
 		6CA4F6121816157D0044B570 /* BCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4F6111816157D0044B570 /* BCServices.m */; };
 		6CA4F61818161EED0044B570 /* Speaker+Formatters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4F61718161EED0044B570 /* Speaker+Formatters.m */; };
-		6CA4F61B18161FA50044B570 /* ic_user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4F61918161FA50044B570 /* ic_user.jpg */; };
-		6CA4F61C18161FA50044B570 /* ic_user@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4F61A18161FA50044B570 /* ic_user@2x.jpg */; };
 		6CA4F622181623B10044B570 /* BCSpeakerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4F621181623B10044B570 /* BCSpeakerTableViewCell.m */; };
 		6CA4F642181624EA0044B570 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4F626181624EA0044B570 /* MKAnnotationView+WebCache.m */; };
 		6CA4F643181624EA0044B570 /* NSData+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4F628181624EA0044B570 /* NSData+GIF.m */; };
@@ -58,6 +56,8 @@
 		6CA4F671181645B60044B570 /* BCScheduleDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4F670181645B60044B570 /* BCScheduleDetailsViewController.m */; };
 		6CA4F67418164BC50044B570 /* BCSpeakerCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4F67318164BC50044B570 /* BCSpeakerCard.m */; };
 		6CA4F67618164BDC0044B570 /* BCSpeakerCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4F67518164BDC0044B570 /* BCSpeakerCard.xib */; };
+		6CC4F4DA18229F2300E79A1E /* ic_user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CC4F4D818229F2300E79A1E /* ic_user.jpg */; };
+		6CC4F4DB18229F2300E79A1E /* ic_user@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CC4F4D918229F2300E79A1E /* ic_user@2x.jpg */; };
 		6CFCE5521813391A0075D783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFCE5511813391A0075D783 /* Foundation.framework */; };
 		6CFCE5541813391A0075D783 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFCE5531813391A0075D783 /* CoreGraphics.framework */; };
 		6CFCE5561813391A0075D783 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFCE5551813391A0075D783 /* UIKit.framework */; };
@@ -111,8 +111,6 @@
 		6CA4F6111816157D0044B570 /* BCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCServices.m; sourceTree = "<group>"; };
 		6CA4F61618161EED0044B570 /* Speaker+Formatters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Speaker+Formatters.h"; sourceTree = "<group>"; };
 		6CA4F61718161EED0044B570 /* Speaker+Formatters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Speaker+Formatters.m"; sourceTree = "<group>"; };
-		6CA4F61918161FA50044B570 /* ic_user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ic_user.jpg; path = "../../../Desktop/BarCamp STI Resources/ic_user.jpg"; sourceTree = "<group>"; };
-		6CA4F61A18161FA50044B570 /* ic_user@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ic_user@2x.jpg"; path = "../../../Desktop/BarCamp STI Resources/ic_user@2x.jpg"; sourceTree = "<group>"; };
 		6CA4F620181623B10044B570 /* BCSpeakerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSpeakerTableViewCell.h; sourceTree = "<group>"; };
 		6CA4F621181623B10044B570 /* BCSpeakerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSpeakerTableViewCell.m; sourceTree = "<group>"; };
 		6CA4F625181624EA0044B570 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
@@ -161,6 +159,8 @@
 		6CA4F67218164BC50044B570 /* BCSpeakerCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSpeakerCard.h; sourceTree = "<group>"; };
 		6CA4F67318164BC50044B570 /* BCSpeakerCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSpeakerCard.m; sourceTree = "<group>"; };
 		6CA4F67518164BDC0044B570 /* BCSpeakerCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BCSpeakerCard.xib; sourceTree = "<group>"; };
+		6CC4F4D818229F2300E79A1E /* ic_user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_user.jpg; sourceTree = "<group>"; };
+		6CC4F4D918229F2300E79A1E /* ic_user@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ic_user@2x.jpg"; sourceTree = "<group>"; };
 		6CFCE54E1813391A0075D783 /* Barcamp STI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcamp STI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFCE5511813391A0075D783 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CFCE5531813391A0075D783 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -205,8 +205,8 @@
 		6C68A27118157DBB00A8F1DC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6CA4F61918161FA50044B570 /* ic_user.jpg */,
-				6CA4F61A18161FA50044B570 /* ic_user@2x.jpg */,
+				6CC4F4D818229F2300E79A1E /* ic_user.jpg */,
+				6CC4F4D918229F2300E79A1E /* ic_user@2x.jpg */,
 				6CA4F5F118160E490044B570 /* ic_logo_small.png */,
 				6CA4F5F218160E490044B570 /* ic_logo_small@2x.png */,
 				6CA4F5E1181609F00044B570 /* ic_speaker@2x.png */,
@@ -462,8 +462,7 @@
 				6CA4F5DB181600E50044B570 /* ic_facebook_intro.png in Resources */,
 				6CFCE56A1813391A0075D783 /* Images.xcassets in Resources */,
 				6CA4F5F0181609F00044B570 /* ic_more.png in Resources */,
-				6CA4F61C18161FA50044B570 /* ic_user@2x.jpg in Resources */,
-				6CA4F61B18161FA50044B570 /* ic_user.jpg in Resources */,
+				6CC4F4DA18229F2300E79A1E /* ic_user.jpg in Resources */,
 				6C68A27418157DD400A8F1DC /* ios_logo.png in Resources */,
 				6CA4F66E18163E2C0044B570 /* BCScheduleViewCell.xib in Resources */,
 				6CA4F5F418160E490044B570 /* ic_logo_small@2x.png in Resources */,
@@ -475,6 +474,7 @@
 				6CA4F5DF1816020C0044B570 /* ic_facebook_intro@2x.png in Resources */,
 				6CA4F5EF181609F00044B570 /* ic_more@2x.png in Resources */,
 				6CA4F5DC181600E50044B570 /* ic_twitter_intro.png in Resources */,
+				6CC4F4DB18229F2300E79A1E /* ic_user@2x.jpg in Resources */,
 				6CA4F5E9181609F00044B570 /* ic_speaker@2x.png in Resources */,
 				6CA4F5EC181609F00044B570 /* ic_agenda.png in Resources */,
 				6C68A27518157DD400A8F1DC /* ios_logo@2x.png in Resources */,

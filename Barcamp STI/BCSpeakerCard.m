@@ -30,6 +30,7 @@
 */
 
 - (IBAction)twitterAction:(id)sender {
+    //NSLog(@"%@", self.speaker.twitter);
     if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"twitter://"]]){
         [[UIApplication sharedApplication] openURL:
          [NSURL URLWithString:[NSString stringWithFormat:@"twitter://user?screen_name=%@", self.speaker.twitter]]];

@@ -83,6 +83,6 @@
     </objects>
     <resources>
         <image name="ic_twitter_intro.png" width="56" height="56"/>
-        <image name="ic_user.jpg" width="107" height="107"/>
+        <image name="ic_user.jpg" width="150" height="150"/>
     </resources>
 </document>
